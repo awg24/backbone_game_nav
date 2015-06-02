@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tic Tac Toe</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+	<section class="page" id="loading">Loading....</section>
+	<section class="page" id="menu">Welcome to Tic Tac Toe!
+			<button id="play">Play Tic Tac Toe</button>
+			<button id="leaderboard">Leaderboard</button>
+			<button id="setting-button">Settings</button>
+	</section>
+	<section class="page" id="game">
+		<div class="vertical-bar"></div>
+		<button class="player-space button-2-adjust disable" id="1"></button>
+		<button class="player-space disable" id="2"></button>
+		<button class="player-space button-3-adjust disable" id="3"></button>
+		<div class="vertical-bar margin-adjust"></div>
+		<div class="horizontal-bar"></div>
+		<button class="player-space button-5-adjust disable" id="4"></button>
+		<button class="player-space button-4-adjust disable" id="5"></button>
+		<button class="player-space button-6-adjust disable" id="6"></button>
+		<div class="horizontal-bar margin-adjust-horizontal"></div>
+		<button class="player-space button-8-adjust disable" id="7"></button>
+		<button class="player-space button-7-adjust disable" id="8"></button>
+		<button class="player-space button-9-adjust disable" id="9"></button><br><br>
+		<div id="status"></div>
+		<button id="go-back">Back To Menu</button>
+	</section>
+	<section class="page" id="board">This is the leaderboard!
+		<button id="go-back-from-board">Back To Menu</button>
+	</section>
+	<section class="page" id="settings">These are the settings!
+		<button id="go-back-from-settings">Back To Menu</button>
+	</section>
+<script type="text/javascript" src="bower_components/underscore/underscore-min.js"></script>
+<script type="text/javascript" src="bower_components/backbone/backbone-min.js"></script>
+<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="scripts/main.js"></script>
+</body>
+</html>
