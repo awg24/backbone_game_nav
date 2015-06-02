@@ -1,0 +1,149 @@
+body {
+	background: rgb(255,243,197);
+}
+#loading {
+	text-align:center;
+	font-size: 30px;
+	font-family: Helvetica;
+	height: 90px;
+  	line-height: 450px;
+}
+
+#menu {
+	margin-left: auto;
+	margin-right: auto;
+	display:flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 15%;
+	font-family: Helvetica;
+	font-size: 30px;
+
+	#play {
+		display: block;
+		height: 75px;
+		width: 200px;
+		border-radius: 5px;
+		margin-bottom: 15px;
+		margin-top: 15px;	
+	}
+
+	#leaderboard {
+		display: block;
+		height: 75px;
+		width: 200px;
+		border-radius: 5px;
+		margin-bottom: 15px;
+		
+	}
+
+	#setting-button {
+		display: block;
+		height: 75px;
+		width: 200px;
+		border-radius: 5px;
+		
+	}
+}
+#status {
+	text-align: center;
+	font-size: 30px;
+}
+.vertical-bar {
+	display: inline-block;
+	margin-left: 44%;
+	height:300px;
+	width: 10px;
+	background: black;
+	border-radius: 10px;
+}
+.horizontal-bar {
+	position: absolute;
+	top: 11%;
+	right: 37%;
+	margin-left: 45%;
+	height:10px;
+	width: 400px;
+	background: black;
+	border-radius: 10px;
+}
+.margin-adjust-horizontal {
+	margin-top: 120px;
+}
+.margin-adjust {
+	margin-left: 130px;
+}
+button {
+	background: rgb(110,41,41);
+	color: white;
+	font-size: 25px;
+}
+.play-again {
+	display:inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.player-space {
+	height: 78px;
+	width: 136px;
+	right: 659px;
+	position: absolute;
+	opacity: 0;
+}
+.button-3-adjust {
+	right: 532px;
+	width: 117px;
+	opacity: 0;
+}
+.button-2-adjust {
+	right: 803px;
+	width: 128px;
+	opacity: 0;
+}
+.button-4-adjust {
+	right: 659px;
+	top: 96px;
+	width: 134px;
+	height:110px;
+	opacity: 0;
+}
+
+.button-5-adjust {
+	right: 803px;
+	top: 96px;
+	width: 128px;
+	height:110px;
+	opacity: 0;
+}
+
+.button-6-adjust {
+	right: 531px;
+	top: 96px;
+	width: 118px;
+	height:110px;
+	opacity: 0;
+}
+.button-7-adjust {
+	right: 659px;
+	top: 216px;
+	width: 134px;
+	height:91px;
+	opacity: 0;
+}
+
+.button-8-adjust {
+	right: 803px;
+	top: 215px;
+	width: 128px;
+	height:92px;
+	opacity: 0;
+}
+
+.button-9-adjust {
+	right: 531px;
+	top: 215px;
+	width: 118px;
+	height:92px;
+	opacity: 0;
+}
